@@ -1,8 +1,6 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Applozic.Droid", "Naxam.Applozic.Droid\Naxam.Applozic.Droid.csproj", "{8AD548DB-C3BF-44EB-970F-B359779BDD78}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ApplozicCommon.Droid", "Naxam.ApplozicCommon.Droid\Naxam.ApplozicCommon.Droid.csproj", "{1C5364C6-1E83-4416-BA45-038E379545B5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ApplozicKit.Droid", "Naxam.ApplozicKit.Droid\Naxam.ApplozicKit.Droid.csproj", "{0D2AC999-7C59-4214-AF60-CFE01D1453B2}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AD548DB-C3BF-44EB-970F-B359779BDD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AD548DB-C3BF-44EB-970F-B359779BDD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AD548DB-C3BF-44EB-970F-B359779BDD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AD548DB-C3BF-44EB-970F-B359779BDD78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C5364C6-1E83-4416-BA45-038E379545B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C5364C6-1E83-4416-BA45-038E379545B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5364C6-1E83-4416-BA45-038E379545B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
