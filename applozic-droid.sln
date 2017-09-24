@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ApplozicKit.Droid", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.ApplozicUI.Droid", "Naxam.ApplozicUI.Droid\Naxam.ApplozicUI.Droid.csproj", "{8F31C1F1-E9D5-4E34-A361-EE72BED4FCB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{193B93CE-978F-4029-A27B-8388AF038409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplozicChat", "demo\ApplozicChat\ApplozicChat.csproj", "{1D62B15F-C648-4336-93E2-D3E6C713258F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +29,12 @@ Global
 		{8F31C1F1-E9D5-4E34-A361-EE72BED4FCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F31C1F1-E9D5-4E34-A361-EE72BED4FCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F31C1F1-E9D5-4E34-A361-EE72BED4FCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D62B15F-C648-4336-93E2-D3E6C713258F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D62B15F-C648-4336-93E2-D3E6C713258F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D62B15F-C648-4336-93E2-D3E6C713258F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D62B15F-C648-4336-93E2-D3E6C713258F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D62B15F-C648-4336-93E2-D3E6C713258F} = {193B93CE-978F-4029-A27B-8388AF038409}
 	EndGlobalSection
 EndGlobal
