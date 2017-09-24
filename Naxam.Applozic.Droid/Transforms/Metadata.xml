@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr
+		path="/api/package[@name='com.applozic.mobicomkit']/class[@name='Applozic']/field[@name='applozic']"
+		name="managedName">ApplozicInstance</attr>
+	<attr path="/api/package[@name='com.applozic.mobicomkit']/class[@name='ApplozicClient']/field[@name='applozicClient']"
+		name="managedName">ApplozicClientInstance</attr>
+</metadata>
