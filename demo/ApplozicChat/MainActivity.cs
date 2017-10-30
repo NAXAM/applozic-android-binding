@@ -9,7 +9,7 @@ using System;
 
 namespace ApplozicChat
 {
-    [Activity(Label = "Applozic Chat")]
+    [Activity(Label = "Applozic Chat",MainLauncher = false)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

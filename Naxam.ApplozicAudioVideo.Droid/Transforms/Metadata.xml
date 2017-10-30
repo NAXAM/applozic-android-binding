@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.applozic.audiovideo.authentication']/class[@name='Token']/field[@name='token']" name="visibility">private</attr>
+  <attr path="/api/package[@name='com.applozic.audiovideo.authentication']/class[@name='Token']/field[@name='token']" name="managedName">_token</attr>
+</metadata>

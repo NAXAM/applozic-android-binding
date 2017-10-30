@@ -3,14 +3,14 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Applozic.Droid</id>
-        <version>4.98</version>
+        <version>4.97</version>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Applozic for Android</title>
         <summary>Xamarin.Android Binding Library - Applozic for Android</summary>
         <description>Xamarin.Android Binding Library - Applozic for Android</description>
-        <releaseNotes>Applozic for Android v4.98</releaseNotes>
+        <releaseNotes>Applozic for Android v4.97</releaseNotes>
         <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/applozic-android-binding</projectUrl>
@@ -27,7 +27,7 @@
             <dependency id="Xamarin.Bindings.CircleImageView" version="2.1.0" />
             <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="25.4.0.2" />
             <dependency id="Xamarin.Android.Support.v7.CardView" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" /> 
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->

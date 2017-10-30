@@ -8,13 +8,15 @@ using Applozic;
 using Com.Applozic.Mobicomkit.Api.Account.Register;
 using Com.Applozic.Mobicommons.People.Channel;
 using Android.Util;
+using Com.Applozic.Mobicomkit;
+using System.Collections.Generic;
+using Com.Applozic.Mobicomkit.Uiwidgets;
 
 namespace ApplozicChat
 {
     [Activity(Label = "Login", MainLauncher = true, Icon = "@mipmap/icon")]
     public class LoginActivity : Activity
     {
-
         private UserLoginListener loginListener;
         private AddMemberListner addMemberListner;
         ApplozicContactService contactService;
@@ -69,6 +71,11 @@ namespace ApplozicChat
                var applozicPref = Com.Applozic.Mobicomkit.Api.Account.User.MobiComUserPreference.GetInstance(context);
                applozicPref.ContactsGroupId = contactGroupId;  */
 
+            ApplozicClient.GetInstance(context).SetHandleDial(true).IPCallEnabled = true;
+            Dictionary<ApplozicSetting.RequestCode, string> activityCallbacks = new Dictionary<ApplozicSetting.RequestCode, string>();
+            activityCallbacks.Add(ApplozicSetting.RequestCode.AudioCall, nameof(Com.Applozic.Audiovideo.Activity.AudioCallActivityV2));
+            activityCallbacks.Add(ApplozicSetting.RequestCode.VideoCall, nameof(Com.Applozic.Audiovideo.Activity.CallActivity));
+            ApplozicSetting.GetInstance(context).SetActivityCallbacks(activityCallbacks);
             Intent myIntent = new Intent(this, typeof(MainActivity));
             this.StartActivity(myIntent);
             this.Finish();

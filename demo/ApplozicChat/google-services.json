@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "996813657014",
+    "firebase_url": "https://applozicqs.firebaseio.com",
+    "project_id": "applozicqs",
+    "storage_bucket": "applozicqs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996813657014:android:1633a076f3c8dc99",
+        "android_client_info": {
+          "package_name": "net.naxam.applozicqs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996813657014-k2135tv081h9lrhms1h9mgm1bgss4kmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMiVMlqkmqodPRM8qT44RQIg7QLs1rK20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

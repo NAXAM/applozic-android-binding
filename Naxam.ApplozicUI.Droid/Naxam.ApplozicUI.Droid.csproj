@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.7\build\Xamarin.Build.Download.props')" />
   <PropertyGroup>
@@ -39,6 +39,9 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Emojicon.Droid, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emojicon.Droid.1.0.0\lib\Emojicon.Droid.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -126,15 +129,15 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
+    <LibraryProjectZip Include="Jars\mobicomkitui-4.97.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
-    <TransformFile Include="Transforms\Metadata.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\mobicomkitui-4.98.aar" />
+    <TransformFile Include="Transforms\Metadata.xml">
+      <SubType>Designer</SubType>
+    </TransformFile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Naxam.ApplozicCommon.Droid\Naxam.ApplozicCommon.Droid.csproj">

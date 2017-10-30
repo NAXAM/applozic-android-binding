@@ -37,9 +37,31 @@
 				<action android:name="com.mobicomkit.sample.send.notification" />
 			</intent-filter>
 		</receiver>
-		<activity android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation" android:label="@string/app_name" android:parentActivityName=".ApplozicXamSample&gt;" android:theme="@style/ApplozicTheme" android:launchMode="singleTask">
+
+    <activity android:name="com.applozic.audiovideo.activity.AudioCallActivityV2"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/Applozic_FullScreen_Theme"/>
+
+    <activity
+        android:name="com.applozic.audiovideo.activity.CallActivity"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:theme="@style/Applozic_FullScreen_Theme"/>
+
+    <activity
+        android:name="com.applozic.audiovideo.activity.VideoActivity"
+        android:launchMode="singleTop"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:exported="true"
+        android:theme="@style/Applozic_FullScreen_Theme">
+    </activity>
+
+    <activity android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation" android:label="@string/app_name" android:parentActivityName=".MainActivity" android:theme="@style/ApplozicTheme" android:launchMode="singleTask">
 			<!-- Parent activity meta-data to support API level 7+ -->
-			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ApplozicXamSample" />
+			<meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".MainActivity" />
 		</activity>
 		<activity android:name="com.applozic.mobicomkit.uiwidgets.people.activity.MobiComKitPeopleActivity" android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation" android:label="@string/activity_contacts_list" android:parentActivityName="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" android:theme="@style/ApplozicTheme" android:windowSoftInputMode="adjustResize">
 			<!-- Parent activity meta-data to support API level 7+ -->

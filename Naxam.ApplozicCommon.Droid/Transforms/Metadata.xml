@@ -4,7 +4,7 @@
 		path="/api/package[@name='com.applozic.mobicommons.json']/class[@name='ArrayAdapter']/method[@name='read' and count(parameter)=1 and parameter[1][@type='com.google.gson.stream.JsonReader']]"
 		name="managedName">ReadList</attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='USER_NAME']"
 		name="managedName">
         USER_NAME
 	</attr>
@@ -14,52 +14,52 @@
         ADD_MEMBER_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADMIN_NAME']"
 		name="managedName">
         ADMIN_NAME
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='CREATE_GROUP_MESSAGE']"
 		name="managedName">
         CREATE_GROUP_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='DELETED_GROUP_MESSAGE']"
 		name="managedName">
         DELETED_GROUP_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='GROUP_ICON_CHANGE_MESSAGE']"
 		name="managedName">
         GROUP_ICON_CHANGE_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='GROUP_LEFT_MESSAGE']"
 		name="managedName">
         GROUP_LEFT_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='GROUP_NAME']"
 		name="managedName">
         GROUP_NAME
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='GROUP_NAME_CHANGE_MESSAGE']"
 		name="managedName">
         GROUP_NAME_CHANGE_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='HIDE_METADATA_NOTIFICATION']"
 		name="managedName">
         HIDE_METADATA_NOTIFICATION
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='JOIN_MEMBER_MESSAGE']"
 		name="managedName">
         JOIN_MEMBER_MESSAGE
     </attr>
 	<attr
-		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='ADD_MEMBER_MESSAGE']"
+		path="/api/package[@name='com.applozic.mobicommons.people.channel']/class[@name='ChannelMetadata']/field[@name='REMOVE_MEMBER_MESSAGE']"
 		name="managedName">
         REMOVE_MEMBER_MESSAGE
     </attr>
