@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Applozic.Droid</id>
-        <version>4.97</version>
+        <version>4.97-emojicon</version>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,16 +18,17 @@
         <tags>Xamarin.Android, applozic</tags>
         <dependencies>
             <dependency id="GoogleGson" version="2.8.1" />
-            <dependency id="Xamarin.Android.Support.v4" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" />
+            <dependency id="Emojicon.Droid" version="1.0.0" />
+            <dependency id="Xamarin.Android.Support.v4" version="26.0.2" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.0.2" />
             <dependency id="XamarinAndroidImageCropper" version="2.3.1" />
             <dependency id="Xamarin.GooglePlayServices.Location" version="42.1021.1" />
             <dependency id="Xamarin.GooglePlayServices.Maps" version="42.1021.1" />
             <dependency id="Xamarin.Firebase.Messaging" version="42.1021.1" />
             <dependency id="Xamarin.Bindings.CircleImageView" version="2.1.0" />
-            <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.v7.CardView" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" /> 
+            <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="26.0.2" />
+            <dependency id="Xamarin.Android.Support.v7.CardView" version="26.0.2" />
+            <dependency id="Xamarin.Android.Support.Design" version="26.0.2" /> 
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->

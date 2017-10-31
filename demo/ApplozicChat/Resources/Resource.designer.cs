@@ -8442,8 +8442,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f090037
 			public const int appbar_scrolling_view_behavior = 2131296311;
 			
-			// aapt resource value: 0x7f0901da
-			public const int application_key = 2131296730;
+			// aapt resource value: 0x7f0901e1
+			public const int application_key = 2131296737;
 			
 			// aapt resource value: 0x7f090050
 			public const int applozic_Cropping_failed = 2131296336;
@@ -8487,8 +8487,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f09005c
 			public const int applozic_resending_attachment = 2131296348;
 			
-			// aapt resource value: 0x7f0901df
-			public const int applozic_sample_app = 2131296735;
+			// aapt resource value: 0x7f0901e6
+			public const int applozic_sample_app = 2131296742;
 			
 			// aapt resource value: 0x7f09015d
 			public const int applozic_select_photo = 2131296605;
@@ -8751,11 +8751,14 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0901a0
 			public const int default_media_location_folder = 2131296672;
 			
-			// aapt resource value: 0x7f0901de
-			public const int default_mqtt_server_url = 2131296734;
+			// aapt resource value: 0x7f0901e5
+			public const int default_mqtt_server_url = 2131296741;
 			
-			// aapt resource value: 0x7f0901dd
-			public const int default_server_url = 2131296733;
+			// aapt resource value: 0x7f0901e4
+			public const int default_server_url = 2131296740;
+			
+			// aapt resource value: 0x7f0901dc
+			public const int default_web_client_id = 2131296732;
 			
 			// aapt resource value: 0x7f09008f
 			public const int delete = 2131296399;
@@ -8925,6 +8928,9 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0900ad
 			public const int file_not_selected = 2131296429;
 			
+			// aapt resource value: 0x7f0901dd
+			public const int firebase_database_url = 2131296733;
+			
 			// aapt resource value: 0x7f0900ae
 			public const int five_min = 2131296430;
 			
@@ -8933,6 +8939,21 @@ namespace ApplozicChat
 			
 			// aapt resource value: 0x7f0900b0
 			public const int gallery = 2131296432;
+			
+			// aapt resource value: 0x7f0901da
+			public const int gcm_defaultSenderId = 2131296730;
+			
+			// aapt resource value: 0x7f0901de
+			public const int google_api_key = 2131296734;
+			
+			// aapt resource value: 0x7f0901db
+			public const int google_app_id = 2131296731;
+			
+			// aapt resource value: 0x7f0901df
+			public const int google_crash_reporting_api_key = 2131296735;
+			
+			// aapt resource value: 0x7f0901e0
+			public const int google_storage_bucket = 2131296736;
 			
 			// aapt resource value: 0x7f0900b1
 			public const int groupType_info = 2131296433;
@@ -9045,8 +9066,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f090174
 			public const int last_sms_sync_time = 2131296628;
 			
-			// aapt resource value: 0x7f0901db
-			public const int launch_chat_list = 2131296731;
+			// aapt resource value: 0x7f0901e2
+			public const int launch_chat_list = 2131296738;
 			
 			// aapt resource value: 0x7f090175
 			public const int launch_mobitexter_app = 2131296629;
@@ -9210,8 +9231,8 @@ namespace ApplozicChat
 			// aapt resource value: 0x7f0900ef
 			public const int one_min = 2131296495;
 			
-			// aapt resource value: 0x7f0901dc
-			public const int one_to_one_chat = 2131296732;
+			// aapt resource value: 0x7f0901e3
+			public const int one_to_one_chat = 2131296739;
 			
 			// aapt resource value: 0x7f0900f0
 			public const int one_week = 2131296496;
