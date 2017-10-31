@@ -11,6 +11,7 @@ using Android.Util;
 using Com.Applozic.Mobicomkit;
 using System.Collections.Generic;
 using Com.Applozic.Mobicomkit.Uiwidgets;
+using Com.Applozic.Audiovideo.Activity;
 
 namespace ApplozicChat
 {
@@ -25,6 +26,15 @@ namespace ApplozicChat
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            try
+            {
+                CallActivity x = new CallActivity();
+            }
+            finally
+            {
+
+            }
+
             base.OnCreate(savedInstanceState);
 
             loginListener = new UserLoginListener();
@@ -73,8 +83,10 @@ namespace ApplozicChat
 
             ApplozicClient.GetInstance(context).SetHandleDial(true).IPCallEnabled = true;
             Dictionary<ApplozicSetting.RequestCode, string> activityCallbacks = new Dictionary<ApplozicSetting.RequestCode, string>();
-            activityCallbacks.Add(ApplozicSetting.RequestCode.AudioCall, nameof(Com.Applozic.Audiovideo.Activity.AudioCallActivityV2));
-            activityCallbacks.Add(ApplozicSetting.RequestCode.VideoCall, nameof(Com.Applozic.Audiovideo.Activity.CallActivity));
+            activityCallbacks.Add(ApplozicSetting.RequestCode.AudioCall, $"{"Com.Applozic.Audiovideo.Activity".ToLower()}.{nameof(AudioCallActivityV2)}");
+
+            var videoActivity = $"{"Com.Applozic.Audiovideo.Activity".ToLower()}.{nameof(VideoActivity)}";
+            activityCallbacks.Add(ApplozicSetting.RequestCode.VideoCall, videoActivity);
             ApplozicSetting.GetInstance(context).SetActivityCallbacks(activityCallbacks);
             Intent myIntent = new Intent(this, typeof(MainActivity));
             this.StartActivity(myIntent);
