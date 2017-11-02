@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Naxam.ApplozicUI.Droid</RootNamespace>
     <AssemblyName>Naxam.ApplozicUI.Droid</AssemblyName>
-    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
